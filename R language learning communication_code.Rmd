@@ -1,0 +1,291 @@
+---
+title: "R语言学习交流"
+subtitle: "R language learning communication"
+author: "Speaker: Jing Yang "
+institute: "Supervisor: Guochun Shen"
+date:  "2019/9/12"
+output:
+  xaringan::moon_reader:
+    css: [default, zh-CN.css]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/R-language-learning-communication/master/R.jpg)
+background-size: 150px
+background-position: 95% 5%
+
+## What is R? 
+
+- R is a free software environment for <font color="#DC143C">**statistical computing**</font> and <font color="#DC143C">**graphics**</font>.
+
+--
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/Picture/master/why%20study%20R.png)    
+background-size: 380px  
+background-position: 50% 80%
+---
+class: inverse, center, middle
+# __Why we should learn R?__
+
+---
+## Why we should learn R?
+
+- __Statistical computing__<br /> 
+
+The popular R packages<sup>1</sup>:<br />
+[smatr](https://cran.r-project.org/web/packages/smatr/index.html)—两组线性回归数据的截距和斜率比较; <br />
+[nlm](https://cnpmjs.org/package/nlm)—混合模型分析; <br />
+[sem](https://cran.r-project.org/web/packages/sem/index.html)—结构方程模型包; <br />
+[vegan](https://cran.r-project.org/web/packages/vegan/index.html)—植被和群落分析;<br /> 
+[BiodiversityR](http://cran.fhcrc.org/web/packages/BiodiversityR/index.html)—生物多样性和群落生态学分析; <br />
+[ade4](http://cran.fhcrc.org/web/packages/ade4/index.html)—综合的生物多样性和生态环境分析包; <br />
+[ape](http://cran.fhcrc.org/web/packages/ape/index.html)—系统发育和进化分析; <br />
+[untb](http://cran.fhcrc.org/web/packages/untb/index.html)—中性群落漂变拟合包; <br />
+[FD](http://cran.fhcrc.org/web/packages/FD/index.html)—功能多样性计算包;<br />
+...
+.footnote[
+[1][R语言简介及在生态学和生物多样性研究中的应用](http://www.wanfangdata.com.cn/details/detail.do?_type=conference&id=8492300)<br />]
+---
+
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/Picture/master/ggplot2.png)    
+background-size: 700px  
+background-position: 50% 55%  
+
+## Why we should learn R?
+- __Graphics__  
+
+.footnote[R package: [ggplot2](https://cran.r-project.org/web/packages/ggplot2/index.html)<br />
+Tutorial: [R使用笔记: ggplot2](https://www.jianshu.com/p/8690f483ec5c)<br />
+Book: [ggplot2. Elegant Graphics for Data Analysis](https://www.springer.com/gp/book/9780387981413)]
+
+---
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/Picture/master/markdown.jpg)    
+background-size: 200px  
+background-position: 50% 60%  
+
+## Why we should learn R?
+- __Reproducible research__  
+RStudio: File ➞ New Project ➞ R Markdown
+
+.footnote[R packages: [markdown](https://cran.r-project.org/web/packages/markdown/); [rmarkdown](https://cran.r-project.org/web/packages/rmarkdown/index.html)<br />
+Book: [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)<br />
+Example: [Work Log of Guochun Lab](file:///C:/Users/pro/Desktop/Untitled/Untitled.html#5)]
+
+---
+
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/Picture/master/bookdown.jpg)   
+background-size: 200px  
+background-position: 50% 55%  
+
+## Why we should learn R?
+- __Books/Work Logs__
+
+.footnote[
+R package: [bookdown](https://cran.r-project.org/web/packages/bookdown/index.html)<br /> 
+Book：[bookdown: Authoring Books and Technical Documents with R Markdown](https://bookdown.org/yihui/bookdown/)<br /> 
+Example: [Work Log of Guochun Lab](http://202.120.81.109:8787/files/labnotes/Work-Log-of-Guochun-Lab/_book/People.html)]
+
+---
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/Picture/master/bookdownplus.png)    
+background-size: 530px  
+background-position: 50% 63%  
+
+## Why we should learn R?
+- __Dissertations__
+
+```{r eval=FALSE}
+library(bookdownplus)
+bookdownplus(template = 'pku_zh')
+```
+
+.footnote[
+R package: [bookdownplus](https://cran.r-project.org/web/packages/bookdownplus/index.html)<br /> 
+Book: [R bookdownplus Textbook](https://bookdown.org/baydap/bookdownplus/)<br /> 
+More templates: [bookdownplus gallery](https://bookdownplus.netlify.com/portfolio/)]
+
+---
+
+background-image: url(https://user-images.githubusercontent.com/163582/45438104-ea200600-b67b-11e8-80fa-d9f2a99a03b0.png)    
+background-size: 240px  
+background-position: 50% 65%  
+
+## Why we should learn R?
+- __Slides__     
+RStudio: File ➞ New File ➞ R Markdown ➞ From Template ➞ Ninja Presentation
+
+.footnote[R package: [xaringan](https://cran.r-project.org/web/packages/xaringan/index.html)<br />
+Official Tutorials: [幻灯忍者](https://slides.yihui.name/xaringan/zh-CN.html#1); [R语言交流学习](https://github.com/Jingyangecnu/Picture/blob/master/Untitled.html#1)]
+
+---
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/Picture/master/blogdown.jpg)    
+background-size: 200px  
+background-position: 50% 60%  
+
+## Why we should learn R?
+- __Build a research website__     
+RStudio: File ➞ New Project ➞ New Directory ➞ Website using blogdown
+
+.footnote[R package: [blogdown](https://bookdown.org/yihui/blogdown/)<br />
+Book: [blogdown: Creating Websites with R Markdown](https://bookdown.org/yihui/blogdown/)]
+
+---
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/R-language-learning-communication/master/R科研一条龙.png)    
+background-size: 800px  
+background-position: 50% 60% 
+
+## Why we should learn R?
+
+.footnote[R的科研一条龙整体解决方案]
+---
+class: inverse, center, middle
+# __How to learn R?__
+
+---
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/R-language-learning-communication/master/R.png)  
+background-size: 450px  
+background-position: 74% 72%  
+
+## How to learn R?
+### Installation
+- [R](https://cran.r-project.org/mirrors.html)<br />
+ [Linux](https://mirrors.tongji.edu.cn/CRAN/)<br />
+ [macOS](https://mirrors.tongji.edu.cn/CRAN/)<br />
+ [Windows](https://mirrors.tongji.edu.cn/CRAN/)<br />
+ 
+--
+ .footnote[__<font color="#DC143C" size=7 face="黑体">裸奔！！！</font>__]
+
+---
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/R-language-learning-communication/master/Rstudio.png)  
+background-size: 530px  
+background-position: 74% 72%  
+
+## How to learn R?
+### Installation
+- [Rstudio](https://www.rstudio.com/products/rstudio/download/#download)
+
+---
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/Picture/master/生态统计课.jpg)    
+background-size: 700px  
+background-position: 50% 78% 
+
+## How to learn R?
+### Course
+- 生态统计（沈国春，张健）
+
+---
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/Picture/master/R%20books.jpg)
+background-size: 300px  
+background-position: 85% 60%  
+
+## How to learn R?
+### Reading books
+- [R语言实战](http://product.dangdang.com/23964002.html)<br />
+- [统计建模与R软件](http://product.dangdang.com/25238121.html)<br />
+- [学R](http://product.dangdang.com/25278950.html)<br />
+- [153分钟学会R](https://github.com/Jingyangecnu/Picture/blob/master/153分钟学会R.pdf)<br />
+- [R for beginner中文版](https://github.com/Jingyangecnu/R-language-learning-communication/blob/master/R%20for%20beginner.pdf)<br />
+- [R Frequently Asked Questions中文版](https://github.com/Jingyangecnu/R-language-learning-communication/blob/master/R%20frequently%20asked%20questions中文版.pdf)<br />
+- [R葵花宝典](https://github.com/Jingyangecnu/R-language-learning-communication/blob/master/R葵花宝典.pdf)
+- [ggplot2:数据分析与图形艺术](http://product.dangdang.com/25859220.html)<br />
+- [Reproducible Research with R and Rstudio](http://product.dangdang.com/1012535626.html)<br />
+
+---
+## How to learn R?
+### Read online study materials
+- [An introduction to Stan with R](https://www.r-bloggers.com/an-introduction-to-stan-with-r/)<br />
+- [R Learning Path: From beginner to expert in R in 7 steps](https://www.kdnuggets.com/2016/03/datacamp-r-learning-path-7-steps.html)<br />
+- [该如何学习 R 语言？](https://www.zhihu.com/question/21654166)<br />
+- [那些年倒腾的R语言学习笔记，全都在这里了~](https://zhuanlan.zhihu.com/p/28131878)<br />
+- [学R 一百问](https://www.pzhao.org/book/r100q/)<br />
+- [Markdown语法整理](https://guo365.github.io/study/Markdown.html#1)<br />
+- [用Rmarkdown 写论文——解决参考文献与交叉引用](https://sspai.com/post/53998)<br />
+- [R bookdown 快速入门和语法速查](http://dapengde.com/archives/19141)<br />
+- Blogs: [赖江山](http://blog.sciencenet.cn/home.php?mod=space&uid=267448); [斯幸峰](http://blog.sciencenet.cn/home.php?mod=space&uid=720485);
+[张金龙](http://wap.sciencenet.cn/home.php?mod=space&uid=255662);
+[谢益辉](https://yihui.name/cn/);
+[周运来](http://blog.sciencenet.cn/home.php?mod=space&uid=1835014);<br />
+
+.footnote[在线资料来源: 互联网; 知乎; 简书; 微信公众号; 个人博客; 统计之都;]
+---
+## How to learn R?
+### Watch video for online learning
+- 慕课堂: [R语言基础](http://www.imooc.com/learn/546)
+- 慕课网: [R语言入门与进阶](https://www.imooc.com/learn/828)
+- 慕课网: [R语言之数据可视化](https://www.imooc.com/learn/640)
+- 中国大学MOOC: [多元统计分析及R语言建模](https://www.icourse163.org/course/JNU-1002335007)
+- [网易云课堂](https://study.163.com/courses-search?keyword=R%E8%AF%AD%E8%A8%80)
+- [腾讯课堂](https://ke.qq.com/course/list/R语言)
+
+---
+
+## How to learn R?  
+
+--
+### 1. Mastering basic operations
+Install packages; Set working Directory; Read data; Data structure; Maths; Basic statistics; Loop; Save data;
+
+--
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/R-language-learning-communication/master/timg.gif)
+background-size: 300px  
+background-position: 50% 87%  
+### 2. Learning by doing ≠ copy and paste code
+
+---
+class: inverse, center, middle
+## Tips
+---
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/R-language-learning-communication/master/记笔记.gif)
+background-size: 300px  
+background-position: 50% 87%
+## Tips
+### 1. Build and manage your knowledge base: 
+- [GitHub](https://github.com/); 
+- [码云](https://gitee.com/); 
+- [印象笔记](https://www.yinxiang.com/); 
+- [浏览器收藏夹]
+---
+## Tips
+### 2. Use ?/?? - Help 
+--
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/R-language-learning-communication/master/web.png)
+background-size: 400px  
+background-position: 50% 87%
+### 3. Use web Resource : Google keywords + r/Error   
+--    
+### 4. Learn to ask questions
+---
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/R-language-learning-communication/master/思考.png)
+background-size: 600px  
+background-position: 50% 65%
+## Tips
+### 5. Think deeply 
+
+---
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/R-language-learning-communication/master/分享学习.jpg.gif)
+background-size: 600px  
+background-position: 50% 65%
+## Tips
+### 6. Share and learn from others
+---
+## Tips
+7. [Loop: for](https://baijiahao.baidu.com/s?id=1610503112508207963&wfr=spider&for=pc)
+8. [Self-defining function](https://baijiahao.baidu.com/s?id=1610637261920764333&wfr=spider&for=pc)
+9. ["apply" series of functions](http://blog.fens.me/r-apply/):apply; lapply; sapply; vapply; mapply; tapply; rapply; eapply
+
+---
+class: inverse, center, middle
+## If this is the future and we know it, why not get prepared right now?
+---
+
+class: center, middle
+## Field work experience
+---
+
+# 蟹蟹
+
+本幻灯片由 R 包 [**xaringan**](https://github.com/yihui/xaringan) 生成；
+
+查克拉来自于 [remark.js](https://remarkjs.com)、[**knitr**](http://yihui.name/knitr)、以及 [R Markdown](https://rmarkdown.rstudio.com)。
