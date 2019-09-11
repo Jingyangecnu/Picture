@@ -13,18 +13,31 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 ---
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/R-language-learning-communication/master/R语言.jpg)
+background-size: 800px
+background-position: 50% 50%
+---
+class: inverse, center, middle
+# __What is R?__
+
+---
 background-image: url(https://raw.githubusercontent.com/Jingyangecnu/R-language-learning-communication/master/R.jpg)
 background-size: 150px
-background-position: 95% 5%
+background-position: 90% 10%
 
 ## What is R? 
 
-- R is a free software environment for <font color="#DC143C">**statistical computing**</font> and <font color="#DC143C">**graphics**</font>.
+- Statistical computing software? <br />
+- Graphic drawing software?  <br />
+- Programming software?  <br />
+
+--
+_<font size=6>R is a free software <font color="red">environment</font> for statistical computing and graphics.</font>_
 
 --
 background-image: url(https://raw.githubusercontent.com/Jingyangecnu/Picture/master/why%20study%20R.png)    
-background-size: 380px  
-background-position: 50% 80%
+background-size: 300px  
+background-position: 50% 93%
 ---
 class: inverse, center, middle
 # __Why we should learn R?__
@@ -70,8 +83,7 @@ background-position: 50% 60%
 RStudio: File ➞ New Project ➞ R Markdown
 
 .footnote[R packages: [markdown](https://cran.r-project.org/web/packages/markdown/); [rmarkdown](https://cran.r-project.org/web/packages/rmarkdown/index.html)<br />
-Book: [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)<br />
-Example: [Work Log of Guochun Lab](file:///C:/Users/pro/Desktop/Untitled/Untitled.html#5)]
+Book: [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)<br />]
 
 ---
 
@@ -116,7 +128,7 @@ background-position: 50% 65%
 RStudio: File ➞ New File ➞ R Markdown ➞ From Template ➞ Ninja Presentation
 
 .footnote[R package: [xaringan](https://cran.r-project.org/web/packages/xaringan/index.html)<br />
-Official Tutorials: [幻灯忍者](https://slides.yihui.name/xaringan/zh-CN.html#1); [R语言交流学习](https://github.com/Jingyangecnu/Picture/blob/master/Untitled.html#1)]
+Tutorials: [幻灯忍者](https://slides.yihui.name/xaringan/zh-CN.html#1); [R语言学习交流Code](https://github.com/Jingyangecnu/R-language-learning-communication/blob/master/R%20language%20learning%20communication_code.Rmd)]
 
 ---
 background-image: url(https://raw.githubusercontent.com/Jingyangecnu/Picture/master/blogdown.jpg)    
@@ -195,7 +207,6 @@ background-position: 85% 60%
 ---
 ## How to learn R?
 ### Read online study materials
-- [An introduction to Stan with R](https://www.r-bloggers.com/an-introduction-to-stan-with-r/)<br />
 - [R Learning Path: From beginner to expert in R in 7 steps](https://www.kdnuggets.com/2016/03/datacamp-r-learning-path-7-steps.html)<br />
 - [该如何学习 R 语言？](https://www.zhihu.com/question/21654166)<br />
 - [那些年倒腾的R语言学习笔记，全都在这里了~](https://zhuanlan.zhihu.com/p/28131878)<br />
@@ -230,7 +241,7 @@ Install packages; Set working Directory; Read data; Data structure; Maths; Basic
 --
 background-image: url(https://raw.githubusercontent.com/Jingyangecnu/R-language-learning-communication/master/timg.gif)
 background-size: 300px  
-background-position: 50% 87%  
+background-position: 50% 80%  
 ### 2. Learning by doing ≠ copy and paste code
 
 ---
@@ -239,53 +250,92 @@ class: inverse, center, middle
 ---
 background-image: url(https://raw.githubusercontent.com/Jingyangecnu/R-language-learning-communication/master/记笔记.gif)
 background-size: 300px  
-background-position: 50% 87%
+background-position: 50% 80%
 ## Tips
-### 1. Build and manage your knowledge base: 
-- [GitHub](https://github.com/); 
-- [码云](https://gitee.com/); 
-- [印象笔记](https://www.yinxiang.com/); 
-- [浏览器收藏夹]
+<font size=5> 1. Build and manage your knowledge base: </font><br />
+- [GitHub](https://github.com/); <br />
+- [码云](https://gitee.com/); <br />
+- [印象笔记](https://www.yinxiang.com/); <br />
 ---
-## Tips
-### 2. Use ?/?? - Help 
---
 background-image: url(https://raw.githubusercontent.com/Jingyangecnu/R-language-learning-communication/master/web.png)
-background-size: 400px  
-background-position: 50% 87%
-### 3. Use web Resource : Google keywords + r/Error   
---    
-### 4. Learn to ask questions
+background-size: 380px  
+background-position: 50% 78%
+
+## Tips
+<font size=5> 2. Use ?/?? - Help</font><br />   
+<font size=5> 3. Use web resource : Google keywords + r/error</font><br />    
+<font size=5> 4. Learn to ask questions</font><br />   
 ---
 background-image: url(https://raw.githubusercontent.com/Jingyangecnu/R-language-learning-communication/master/思考.png)
 background-size: 600px  
-background-position: 50% 65%
+background-position: 50% 78%
 ## Tips
-### 5. Think deeply 
+<font size=5> 5. Think deeply</font><br />
+
+<font size=5> 6. Share and learn from others</font>
+---
+## Tips
+<font size=5> 7. [Self-defining function](https://baijiahao.baidu.com/s?id=1610637261920764333&wfr=spider&for=pc)</font><br />
+--
+<font size=5> 8. [Loop: for](https://baijiahao.baidu.com/s?id=1610503112508207963&wfr=spider&for=pc)</font><br />        
+--
+<font size=5> 9. ["apply" series of functions](http://blog.fens.me/r-apply/):apply; lapply; sapply; vapply; mapply; tapply; rapply; eapply</font><br />       
+--
+```{r,echo=F}
+#Example
+data <- read.csv(file="/Users/pro/Desktop/STD paper/Data/field.pair.data2.csv",header = T)
+```
+```{r}
+trait.mean <- tapply(data[, colnames(data) == "SLA"], 
+                     list(data$sp, data$under_competition, data$shade), 
+                     mean, na.rm = T)
+trait.mean[,,1]
+```
 
 ---
-background-image: url(https://raw.githubusercontent.com/Jingyangecnu/R-language-learning-communication/master/分享学习.jpg.gif)
-background-size: 600px  
-background-position: 50% 65%
-## Tips
-### 6. Share and learn from others
----
-## Tips
-7. [Loop: for](https://baijiahao.baidu.com/s?id=1610503112508207963&wfr=spider&for=pc)
-8. [Self-defining function](https://baijiahao.baidu.com/s?id=1610637261920764333&wfr=spider&for=pc)
-9. ["apply" series of functions](http://blog.fens.me/r-apply/):apply; lapply; sapply; vapply; mapply; tapply; rapply; eapply
-
----
-class: inverse, center, middle
+class:  center, middle
 ## If this is the future and we know it, why not get prepared right now?
 ---
 
-class: center, middle
-## Field work experience
+class: inverse, center, middle
+## __About scientific research__
 ---
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/R-language-learning-communication/master/time.jpg)
+background-size: 580px  
+background-position: 50% 68%
+### About scientific research
+- <font size=5>Time management</font>  
+_Only ever work on the thing that will have the biggest impact._
+---
+### About scientific research
+- <font size=5>Time management</font>          
+_Only ever work on the thing that will have the biggest impact._  
 
-# 蟹蟹
+- <font size=5>Keep reading and taking notes </font><br />
 
-本幻灯片由 R 包 [**xaringan**](https://github.com/yihui/xaringan) 生成；
+--
+- <font size=5>Oral presentation is very important</font><br />      
 
-查克拉来自于 [remark.js](https://remarkjs.com)、[**knitr**](http://yihui.name/knitr)、以及 [R Markdown](https://rmarkdown.rstudio.com)。
+
+--
+- <font size=5>Make daily experiment record and process data timely</font><br />  
+
+
+--
+- <font size=5>Error in the experiment may be a new opportunity</font><br /> 
+
+
+--
+- <font size=5>Communicate with your supervisor in time </font><br />    
+
+
+--
+- <font size=5>Maintain a good attitude  </font>    
+_There is no issue that can not be solved._
+
+---
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/R-language-learning-communication/master/ecnu%20(2).jpg)
+background-size: 730px  
+background-position: 50% 65%
+
+# Thanks
