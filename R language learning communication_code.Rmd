@@ -334,7 +334,7 @@ _Only ever work on the thing that will have the biggest impact._
 _There is no issue that can not be solved._
 
 ---
-background-image: url(https://raw.githubusercontent.com/Jingyangecnu/R-language-learning-communication/master/ecnu%20(2).jpg)
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/R-language-learning-communication/master/ecnu.jpg)
 background-size: 730px  
 background-position: 50% 65%
 

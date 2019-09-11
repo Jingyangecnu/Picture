@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>R语言学习交流</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Speaker: Jing Yang" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="zh-CN.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# R语言学习交流
+## R language learning communication
+### Speaker: Jing Yang
+### Supervisor: Guochun Shen
+### 2019/9/12
+
+---
+
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/R-language-learning-communication/master/R.jpg)
+background-size: 150px
+background-position: 95% 5%
+
+## What is R? 
+
+- R is a free software environment for &lt;font color="#DC143C"&gt;**statistical computing**&lt;/font&gt; and &lt;font color="#DC143C"&gt;**graphics**&lt;/font&gt;.
+
+--
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/Picture/master/why%20study%20R.png)    
+background-size: 380px  
+background-position: 50% 80%
+---
+class: inverse, center, middle
+# __Why we should learn R?__
+
+---
+## Why we should learn R?
+
+- __Statistical computing__&lt;br /&gt; 
+
+The popular R packages&lt;sup&gt;1&lt;/sup&gt;:&lt;br /&gt;
+[smatr](https://cran.r-project.org/web/packages/smatr/index.html)—两组线性回归数据的截距和斜率比较; &lt;br /&gt;
+[nlm](https://cnpmjs.org/package/nlm)—混合模型分析; &lt;br /&gt;
+[sem](https://cran.r-project.org/web/packages/sem/index.html)—结构方程模型包; &lt;br /&gt;
+[vegan](https://cran.r-project.org/web/packages/vegan/index.html)—植被和群落分析;&lt;br /&gt; 
+[BiodiversityR](http://cran.fhcrc.org/web/packages/BiodiversityR/index.html)—生物多样性和群落生态学分析; &lt;br /&gt;
+[ade4](http://cran.fhcrc.org/web/packages/ade4/index.html)—综合的生物多样性和生态环境分析包; &lt;br /&gt;
+[ape](http://cran.fhcrc.org/web/packages/ape/index.html)—系统发育和进化分析; &lt;br /&gt;
+[untb](http://cran.fhcrc.org/web/packages/untb/index.html)—中性群落漂变拟合包; &lt;br /&gt;
+[FD](http://cran.fhcrc.org/web/packages/FD/index.html)—功能多样性计算包;&lt;br /&gt;
+...
+.footnote[
+[1][R语言简介及在生态学和生物多样性研究中的应用](http://www.wanfangdata.com.cn/details/detail.do?_type=conference&amp;id=8492300)&lt;br /&gt;]
+---
+
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/Picture/master/ggplot2.png)    
+background-size: 700px  
+background-position: 50% 55%  
+
+## Why we should learn R?
+- __Graphics__  
+
+.footnote[R package: [ggplot2](https://cran.r-project.org/web/packages/ggplot2/index.html)&lt;br /&gt;
+Tutorial: [R使用笔记: ggplot2](https://www.jianshu.com/p/8690f483ec5c)&lt;br /&gt;
+Book: [ggplot2. Elegant Graphics for Data Analysis](https://www.springer.com/gp/book/9780387981413)]
+
+---
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/Picture/master/markdown.jpg)    
+background-size: 200px  
+background-position: 50% 60%  
+
+## Why we should learn R?
+- __Reproducible research__  
+RStudio: File ➞ New Project ➞ R Markdown
+
+.footnote[R packages: [markdown](https://cran.r-project.org/web/packages/markdown/); [rmarkdown](https://cran.r-project.org/web/packages/rmarkdown/index.html)&lt;br /&gt;
+Book: [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)&lt;br /&gt;
+Example: [Work Log of Guochun Lab](file:///C:/Users/pro/Desktop/Untitled/Untitled.html#5)]
+
+---
+
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/Picture/master/bookdown.jpg)   
+background-size: 200px  
+background-position: 50% 55%  
+
+## Why we should learn R?
+- __Books/Work Logs__
+
+.footnote[
+R package: [bookdown](https://cran.r-project.org/web/packages/bookdown/index.html)&lt;br /&gt; 
+Book：[bookdown: Authoring Books and Technical Documents with R Markdown](https://bookdown.org/yihui/bookdown/)&lt;br /&gt; 
+Example: [Work Log of Guochun Lab](http://202.120.81.109:8787/files/labnotes/Work-Log-of-Guochun-Lab/_book/People.html)]
+
+---
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/Picture/master/bookdownplus.png)    
+background-size: 530px  
+background-position: 50% 63%  
+
+## Why we should learn R?
+- __Dissertations__
+
+
+```r
+library(bookdownplus)
+bookdownplus(template = 'pku_zh')
+```
+
+.footnote[
+R package: [bookdownplus](https://cran.r-project.org/web/packages/bookdownplus/index.html)&lt;br /&gt; 
+Book: [R bookdownplus Textbook](https://bookdown.org/baydap/bookdownplus/)&lt;br /&gt; 
+More templates: [bookdownplus gallery](https://bookdownplus.netlify.com/portfolio/)]
+
+---
+
+background-image: url(https://user-images.githubusercontent.com/163582/45438104-ea200600-b67b-11e8-80fa-d9f2a99a03b0.png)    
+background-size: 240px  
+background-position: 50% 65%  
+
+## Why we should learn R?
+- __Slides__     
+RStudio: File ➞ New File ➞ R Markdown ➞ From Template ➞ Ninja Presentation
+
+.footnote[R package: [xaringan](https://cran.r-project.org/web/packages/xaringan/index.html)&lt;br /&gt;
+Official Tutorials: [幻灯忍者](https://slides.yihui.name/xaringan/zh-CN.html#1); [R语言交流学习](https://github.com/Jingyangecnu/Picture/blob/master/Untitled.html#1)]
+
+---
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/Picture/master/blogdown.jpg)    
+background-size: 200px  
+background-position: 50% 60%  
+
+## Why we should learn R?
+- __Build a research website__     
+RStudio: File ➞ New Project ➞ New Directory ➞ Website using blogdown
+
+.footnote[R package: [blogdown](https://bookdown.org/yihui/blogdown/)&lt;br /&gt;
+Book: [blogdown: Creating Websites with R Markdown](https://bookdown.org/yihui/blogdown/)]
+
+---
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/R-language-learning-communication/master/R科研一条龙.png)    
+background-size: 800px  
+background-position: 50% 60% 
+
+## Why we should learn R?
+
+.footnote[R的科研一条龙整体解决方案]
+---
+class: inverse, center, middle
+# __How to learn R?__
+
+---
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/R-language-learning-communication/master/R.png)  
+background-size: 450px  
+background-position: 74% 72%  
+
+## How to learn R?
+### Installation
+- [R](https://cran.r-project.org/mirrors.html)&lt;br /&gt;
+ [Linux](https://mirrors.tongji.edu.cn/CRAN/)&lt;br /&gt;
+ [macOS](https://mirrors.tongji.edu.cn/CRAN/)&lt;br /&gt;
+ [Windows](https://mirrors.tongji.edu.cn/CRAN/)&lt;br /&gt;
+ 
+--
+ .footnote[__&lt;font color="#DC143C" size=7 face="黑体"&gt;裸奔！！！&lt;/font&gt;__]
+
+---
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/R-language-learning-communication/master/Rstudio.png)  
+background-size: 530px  
+background-position: 74% 72%  
+
+## How to learn R?
+### Installation
+- [Rstudio](https://www.rstudio.com/products/rstudio/download/#download)
+
+---
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/Picture/master/生态统计课.jpg)    
+background-size: 700px  
+background-position: 50% 78% 
+
+## How to learn R?
+### Course
+- 生态统计（沈国春，张健）
+
+---
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/Picture/master/R%20books.jpg)
+background-size: 300px  
+background-position: 85% 60%  
+
+## How to learn R?
+### Reading books
+- [R语言实战](http://product.dangdang.com/23964002.html)&lt;br /&gt;
+- [统计建模与R软件](http://product.dangdang.com/25238121.html)&lt;br /&gt;
+- [学R](http://product.dangdang.com/25278950.html)&lt;br /&gt;
+- [153分钟学会R](https://github.com/Jingyangecnu/Picture/blob/master/153分钟学会R.pdf)&lt;br /&gt;
+- [R for beginner中文版](https://github.com/Jingyangecnu/R-language-learning-communication/blob/master/R%20for%20beginner.pdf)&lt;br /&gt;
+- [R Frequently Asked Questions中文版](https://github.com/Jingyangecnu/R-language-learning-communication/blob/master/R%20frequently%20asked%20questions中文版.pdf)&lt;br /&gt;
+- [R葵花宝典](https://github.com/Jingyangecnu/R-language-learning-communication/blob/master/R葵花宝典.pdf)
+- [ggplot2:数据分析与图形艺术](http://product.dangdang.com/25859220.html)&lt;br /&gt;
+- [Reproducible Research with R and Rstudio](http://product.dangdang.com/1012535626.html)&lt;br /&gt;
+
+---
+## How to learn R?
+### Read online study materials
+- [An introduction to Stan with R](https://www.r-bloggers.com/an-introduction-to-stan-with-r/)&lt;br /&gt;
+- [R Learning Path: From beginner to expert in R in 7 steps](https://www.kdnuggets.com/2016/03/datacamp-r-learning-path-7-steps.html)&lt;br /&gt;
+- [该如何学习 R 语言？](https://www.zhihu.com/question/21654166)&lt;br /&gt;
+- [那些年倒腾的R语言学习笔记，全都在这里了~](https://zhuanlan.zhihu.com/p/28131878)&lt;br /&gt;
+- [学R 一百问](https://www.pzhao.org/book/r100q/)&lt;br /&gt;
+- [Markdown语法整理](https://guo365.github.io/study/Markdown.html#1)&lt;br /&gt;
+- [用Rmarkdown 写论文——解决参考文献与交叉引用](https://sspai.com/post/53998)&lt;br /&gt;
+- [R bookdown 快速入门和语法速查](http://dapengde.com/archives/19141)&lt;br /&gt;
+- Blogs: [赖江山](http://blog.sciencenet.cn/home.php?mod=space&amp;uid=267448); [斯幸峰](http://blog.sciencenet.cn/home.php?mod=space&amp;uid=720485);
+[张金龙](http://wap.sciencenet.cn/home.php?mod=space&amp;uid=255662);
+[谢益辉](https://yihui.name/cn/);
+[周运来](http://blog.sciencenet.cn/home.php?mod=space&amp;uid=1835014);&lt;br /&gt;
+
+.footnote[在线资料来源: 互联网; 知乎; 简书; 微信公众号; 个人博客; 统计之都;]
+---
+## How to learn R?
+### Watch video for online learning
+- 慕课堂: [R语言基础](http://www.imooc.com/learn/546)
+- 慕课网: [R语言入门与进阶](https://www.imooc.com/learn/828)
+- 慕课网: [R语言之数据可视化](https://www.imooc.com/learn/640)
+- 中国大学MOOC: [多元统计分析及R语言建模](https://www.icourse163.org/course/JNU-1002335007)
+- [网易云课堂](https://study.163.com/courses-search?keyword=R%E8%AF%AD%E8%A8%80)
+- [腾讯课堂](https://ke.qq.com/course/list/R语言)
+
+---
+
+## How to learn R?  
+
+--
+### 1. Mastering basic operations
+Install packages; Set working Directory; Read data; Data structure; Maths; Basic statistics; Loop; Save data;
+
+--
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/R-language-learning-communication/master/timg.gif)
+background-size: 300px  
+background-position: 50% 87%  
+### 2. Learning by doing ≠ copy and paste code
+
+---
+class: inverse, center, middle
+## Tips
+---
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/R-language-learning-communication/master/记笔记.gif)
+background-size: 300px  
+background-position: 50% 87%
+## Tips
+### 1. Build and manage your knowledge base: 
+- [GitHub](https://github.com/); 
+- [码云](https://gitee.com/); 
+- [印象笔记](https://www.yinxiang.com/); 
+- [浏览器收藏夹]
+---
+## Tips
+### 2. Use ?/?? - Help 
+--
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/R-language-learning-communication/master/web.png)
+background-size: 400px  
+background-position: 50% 87%
+### 3. Use web Resource : Google keywords + r/Error      
+--    
+### 4. Learn to ask questions
+---
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/R-language-learning-communication/master/思考.png)
+background-size: 600px  
+background-position: 50% 65%
+## Tips
+### 5. Think deeply 
+
+---
+background-image: url(https://raw.githubusercontent.com/Jingyangecnu/R-language-learning-communication/master/分享学习.jpg.gif)
+background-size: 450px  
+background-position: 50% 65%
+## Tips
+### 6. Share and learn from others
+---
+## Tips
+7. [Loop: for](https://baijiahao.baidu.com/s?id=1610503112508207963&amp;wfr=spider&amp;for=pc)
+8. [Self-defining function](https://baijiahao.baidu.com/s?id=1610637261920764333&amp;wfr=spider&amp;for=pc)
+9. ["apply" series of functions](http://blog.fens.me/r-apply/):apply; lapply; sapply; vapply; mapply; tapply; rapply; eapply
+
+---
+class: inverse, center, middle
+## If this is the future and we know it, why not get prepared right now?
+---
+
+class: center, middle
+## Field work experience
+---
+
+# 蟹蟹
+
+本幻灯片由 R 包 [**xaringan**](https://github.com/yihui/xaringan) 生成；
+
+查克拉来自于 [remark.js](https://remarkjs.com)、[**knitr**](http://yihui.name/knitr)、以及 [R Markdown](https://rmarkdown.rstudio.com)。
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
